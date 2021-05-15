@@ -1,0 +1,73 @@
+html, body {
+height: 100%;
+margin: 0px;
+background-color: #fff;
+overflow: hidden;
+}
+
+.centralcolumn {
+background-color: white;
+width: 1024px;
+height: 100%;
+border: 0px solid blue;
+position: relative;
+margin: auto;
+}
+
+#SqrsCnt {
+position: absolute;
+background-color: #fff;
+}
+
+#ASqre {
+position: absolute;
+background-color: transparent;
+}
+
+#BSqre {
+position: absolute;
+background-color: transparent;
+}
+
+.BSqreQrtrs {
+position: absolute;
+background-color: transparent;
+outline: 1px solid blue;
+outline-offset: -1px;
+}
+
+#gperilli {
+position: absolute;
+background-color: #eee;
+}
+
+#UICol {
+position: absolute;
+background-color: #eee;
+}
+
+.gperillilink {
+opacity: 0;
+cursor: pointer;
+}
+
+.gperillilink:hover {
+opacity: 1;
+}
+
+.UISlect {
+position: absolute;
+background-color:
+transparent; z-index: 99;
+}
+
+.UISlect:hover {
+background-color: #ddd;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+.centralcolumn {
+width: 100%;
+}
+}
