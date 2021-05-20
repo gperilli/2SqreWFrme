@@ -29,14 +29,14 @@ position: absolute;
 background-color: transparent;
 }
 
-.BSqreQrtrs {
+.SqreQrtrs {
 position: absolute;
 background-color: transparent;
 outline: 1px solid blue;
 outline-offset: -1px;
 }
 
-#gperilli {
+#LnkTxt {
 position: absolute;
 background-color: #eee;
 }
@@ -46,12 +46,12 @@ position: absolute;
 background-color: #eee;
 }
 
-.gperillilink {
+.LnkTxtlink {
 opacity: 0;
 cursor: pointer;
 }
 
-.gperillilink:hover {
+.LnkTxtlink:hover {
 opacity: 1;
 }
 
